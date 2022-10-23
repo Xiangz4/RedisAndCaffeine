@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: 
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/testMyBatisPlus?useUnicode=true&characterEncoding=utf8
+  redis:
+    host: 106.52.67.16
+    port: 6379
+    database: 0
+    timeout: 10000ms
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: -1ms
+        max-idle: 8
+        min-idle: 0
+    password: xiangz
